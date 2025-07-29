@@ -1,3 +1,10 @@
+basic.showLeds(`
+    . . . . .
+    # # . # #
+    # # # # #
+    . # # # .
+    . . # . .
+    `)
 radio.setGroup(1)
 basic.forever(function () {
     if (joystickbit.getRockerValue(joystickbit.rockerType.X) < 200) {
